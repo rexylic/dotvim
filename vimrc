@@ -60,6 +60,7 @@ nn <Right> :bn<CR>
 
 nn <Leader>G :Goyo<CR>
 nn <Leader>M :tab h user-manual<CR>
+nn <Leader>W :setl wrap!<CR>
 
 nn <Leader>b :Buffers<CR>
 nn <Leader>d :exe 'Rg ' . expand('<cword>')<CR>
@@ -73,8 +74,6 @@ nn <Leader>r :Rg<CR>
 nn <Leader>t :Tags<CR>
 nn <Leader>u :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
 nn <Leader>v :tabe ~/.vim/after/ftplugin/<C-r>=&filetype<CR>.vim<CR>
-
-nn <Leader>W :setl wrap!<CR>
 
 xmap - <Plug>(EasyAlign)
 nmap - <Plug>(EasyAlign)
