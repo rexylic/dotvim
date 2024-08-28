@@ -1,0 +1,48 @@
+[submodule "pack/themes/start/papercolor-theme"]
+	path = pack/themes/start/papercolor-theme
+	url = https://github.com/NLKNguyen/papercolor-theme
+[submodule "pack/editing/start/vim-commentary"]
+	path = pack/editing/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary
+[submodule "pack/editing/start/vim-repeat"]
+	path = pack/editing/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat
+[submodule "pack/editing/start/vim-surround"]
+	path = pack/editing/start/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "pack/fzf/start/fzf"]
+	path = pack/fzf/start/fzf
+	url = https://github.com/junegunn/fzf
+[submodule "pack/fzf/start/fzf.vim"]
+	path = pack/fzf/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "pack/integrate/opt/vim-pandoc-syntax"]
+	path = pack/integrate/opt/vim-pandoc-syntax
+	url = https://github.com/vim-pandoc/vim-pandoc-syntax
+[submodule "pack/integrate/opt/vimtex"]
+	path = pack/integrate/opt/vimtex
+	url = https://github.com/lervag/vimtex
+[submodule "pack/integrate/start/vim-fugitive"]
+	path = pack/integrate/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/snippets/start/vim-addon-mw-utils"]
+	path = pack/snippets/start/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils
+[submodule "pack/snippets/start/vim-snipmate"]
+	path = pack/snippets/start/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate
+[submodule "pack/themes/start/everforest"]
+	path = pack/themes/start/everforest
+	url = https://github.com/sainnhe/everforest
+[submodule "pack/themes/start/vim-colors-solarized"]
+	path = pack/themes/start/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
+[submodule "pack/visual/start/context.vim"]
+	path = pack/visual/start/context.vim
+	url = https://github.com/wellle/context.vim
+[submodule "pack/visual/start/goyo.vim"]
+	path = pack/visual/start/goyo.vim
+	url = https://github.com/junegunn/goyo.vim
+[submodule "pack/editing/start/vim-easy-align"]
+	path = pack/editing/start/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align
