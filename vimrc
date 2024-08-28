@@ -5,11 +5,8 @@ else
 endif
 
 color PaperColor
-syn enable
 filetype indent plugin on
-
-pa editorconfig
-pa matchit
+syn enable
 
 let g:context_highlight_tag = '<hide>'
 
@@ -44,13 +41,16 @@ let g:snipMate =
 \		'description_in_completion': 1
 \	}
 
-nn `    %
+let no_plugin_maps = 1
+
+nn `    <C-w>
+nn ~    <C-w>T
 nn +    :tabe<CR>
 nn _    :tabc<CR>
 nn Q		@@
 nn U    :redo<CR>
-nn [    :tabp<CR>
-nn ]    :tabn<CR>
+nn [		:tabp<CR>
+nn ]		:tabn<CR>
 nn <BS> <Nop>
 
 nn <Up>    :cp<CR>
@@ -79,12 +79,6 @@ nn <Leader>W :setl wrap!<CR>
 xmap - <Plug>(EasyAlign)
 nmap - <Plug>(EasyAlign)
 
-fu! CenterCursor()
-	let pos = getpos(".")
-	norm! zz
-	cal setpos(".", pos)
-endf
-au CursorMoved,CursorMovedI * cal CenterCursor()
-
 set ai bri cc=81,101 cul is isk-=_ lz nocp noek noet noswf nu rnu ru sbr=¶\  
-set scs sr shm+=aI siso=4 sms sw=0 ts=2 tw=80 wmnu
+set scs so=99 sr shm+=aI siso=4 sms sw=0 ts=2 tm=200 ttm=100 tw=80 ve=all wmnu
+
