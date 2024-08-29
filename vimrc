@@ -4,7 +4,7 @@ else
 	set bg=dark
 endif
 
-color PaperColor
+color wildcharm
 filetype indent plugin on
 syn enable
 
@@ -59,6 +59,8 @@ nn <Left>  :bp<CR>
 nn <Right> :bn<CR>
 
 nn <Leader>G :Goyo<CR>
+nn <Leader>H :hi<CR>
+nn <Leader>I :tab h index<CR>
 nn <Leader>M :tab h user-manual<CR>
 nn <Leader>W :setl wrap!<CR>
 
@@ -78,6 +80,5 @@ nn <Leader>v :tabe ~/.vim/after/ftplugin/<C-r>=&filetype<CR>.vim<CR>
 xmap - <Plug>(EasyAlign)
 nmap - <Plug>(EasyAlign)
 
-set ai bri cc=81,101 cul is isk-=_ lz nocp noek noet noswf nu rnu ru sbr=¶\  
+set ai bri cc=81,101 cul fdc=4 is isk-=_ lz nocp noek noet noswf nu rnu ru sbr=¶\  
 set scs so=99 sr shm+=aI siso=4 sms sw=0 ts=2 tm=200 ttm=100 tw=80 ve=all wmnu
-
