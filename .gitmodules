@@ -1,5 +1,5 @@
 [submodule "pack/themes/start/papercolor-theme"]
-	path = pack/themes/start/papercolor-theme
+	path = pack/themes/opt/papercolor-theme
 	url = https://github.com/NLKNguyen/papercolor-theme
 [submodule "pack/editing/start/vim-commentary"]
 	path = pack/editing/start/vim-commentary
@@ -32,10 +32,10 @@
 	path = pack/snippets/start/vim-snipmate
 	url = https://github.com/garbas/vim-snipmate
 [submodule "pack/themes/start/everforest"]
-	path = pack/themes/start/everforest
+	path = pack/themes/opt/everforest
 	url = https://github.com/sainnhe/everforest
 [submodule "pack/themes/start/vim-colors-solarized"]
-	path = pack/themes/start/vim-colors-solarized
+	path = pack/themes/opt/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
 [submodule "pack/visual/start/context.vim"]
 	path = pack/visual/start/context.vim
@@ -46,3 +46,6 @@
 [submodule "pack/editing/start/vim-easy-align"]
 	path = pack/editing/start/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align
+[submodule "pack/sessions/start/restore_view"]
+	path = pack/sessions/start/restore_view
+	url = https://github.com/vim-scripts/restore_view.vim.git
