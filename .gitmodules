@@ -47,5 +47,5 @@
 	path = pack/editing/start/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align
 [submodule "pack/sessions/start/restore_view"]
-	path = pack/sessions/start/restore_view
+	path = pack/sessions/opt/restore_view
 	url = https://github.com/vim-scripts/restore_view.vim.git

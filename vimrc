@@ -47,6 +47,7 @@ nn `    <C-w>
 nn ~    <C-w>T
 nn +    :tabe<CR>
 nn _    :tabc<CR>
+nn =!		gg=G
 nn Q		@@
 nn U    :redo<CR>
 nn [		:tabp<CR>
@@ -80,5 +81,6 @@ nn <Leader>v :tabe ~/.vim/after/ftplugin/<C-r>=&filetype<CR>.vim<CR>
 xmap - <Plug>(EasyAlign)
 nmap - <Plug>(EasyAlign)
 
-set ai bri cc=81,101 cul fdc=4 is isk-=_ lz nocp noek noet noswf nu rnu ru sbr=¶\  
+set ai bri cc=81,101 cul fdc=4 is isk-=_ lz nu rnu ru sbr=¶\   
 set scs so=99 sr shm+=aI siso=4 sms sw=0 ts=2 tm=200 ttm=100 tw=80 ve=all wmnu
+set nocp noek noet noswf 
