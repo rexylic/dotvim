@@ -81,6 +81,31 @@ nn <Leader>v :tabe ~/.vim/after/ftplugin/<C-r>=&filetype<CR>.vim<CR>
 xmap - <Plug>(EasyAlign)
 nmap - <Plug>(EasyAlign)
 
-set ai bri cc=81,101 cul fdc=4 is isk-=_ lz nu rnu ru sbr=¶\   
-set scs so=99 sr shm+=aI siso=4 sms sw=0 ts=2 tm=200 ttm=100 tw=80 ve=all wmnu
-set nocp noek noet noswf 
+set autoindent
+set breakindent
+set colorcolumn=81,101,121,141
+set nocompatible
+set cursorline
+set noesckeys
+set noexpandtab
+set foldcolumn=4
+set incsearch
+set iskeyword-=_,-
+set lazyredraw
+set number
+set relativenumber
+set ruler
+set scrolloff=99
+set showbreak=¶\ 
+set smartcase
+set smoothscroll
+set shiftround
+set shiftwidth=0
+set sidescrolloff=5
+set noswapfile
+set tabstop=2
+set textwidth=80
+set timeoutlen=200
+set ttimeoutlen=100
+set virtualedit=all
+set wildmenu
