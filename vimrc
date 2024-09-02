@@ -4,9 +4,9 @@ else
 	set bg=dark
 endif
 
-color wildcharm
+colorscheme wildcharm
 filetype indent plugin on
-syn enable
+syntax enable
 
 let g:context_highlight_tag = '<hide>'
 
@@ -30,8 +30,7 @@ let g:fzf_colors =
 \ 	'header':  ['fg', 'Comment']
 \ }
 
-let g:fzf_vim = {}
-let g:fzf_vim.preview_window = []
+let g:fzf_vim = { 'preview_window' : [] }
 
 let g:goyo_width = 82
 
@@ -43,40 +42,43 @@ let g:snipMate =
 
 let no_plugin_maps = 1
 
-nn `    <C-w>
-nn ~    <C-w>T
-nn +    :tabe<CR>
-nn _    :tabc<CR>
-nn =!		gg=G
-nn Q		@@
-nn U    :redo<CR>
-nn [		:tabp<CR>
-nn ]		:tabn<CR>
-nn <BS> <Nop>
+noremap , ;
+noremap ; yyp
+noremap ` <C-w>
+noremap ~ <C-w>T
+noremap + :tabe<CR>
+noremap _ :tabc<CR>
+noremap [ :tabp<CR>
+noremap ] :tabn<CR>
+noremap Q @@
+noremap U :redo<CR>
 
-nn <Up>    :cp<CR>
-nn <Down>  :cn<CR>
-nn <Left>  :bp<CR>
-nn <Right> :bn<CR>
+nnoremap <Up>    :cp<CR>
+nnoremap <Down>  :cn<CR>
+nnoremap <Left>  :bp<CR>
+nnoremap <Right> :bn<CR>
 
-nn <Leader>G :Goyo<CR>
-nn <Leader>H :hi<CR>
-nn <Leader>I :tab h index<CR>
-nn <Leader>M :tab h user-manual<CR>
-nn <Leader>W :setl wrap!<CR>
+nnoremap <Leader>G :Goyo<CR>
+nnoremap <Leader>H :hi<CR>
+nnoremap <Leader>I :tab h index<CR>
+nnoremap <Leader>M :tab h user-manual<CR>
+nnoremap <Leader>V :tabe ~/.vim/vimrc<CR>
+nnoremap <Leader>W :setl wrap!<CR>
 
-nn <Leader>b :Buffers<CR>
-nn <Leader>d :exe 'Rg ' . expand('<cword>')<CR>
-nn <Leader>c :let @/ = ""<CR>
-nn <Leader>f :Files<CR>
-nn <Leader>h :Helptags<CR>
-nn <Leader>j :Jumps<CR>
-nn <Leader>l :BLines<CR>
-nn <Leader>m :Marks<CR>
-nn <Leader>r :Rg<CR>
-nn <Leader>t :Tags<CR>
-nn <Leader>u :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
-nn <Leader>v :tabe ~/.vim/after/ftplugin/<C-r>=&filetype<CR>.vim<CR>
+nnoremap <Leader>b :Buffers<CR>
+nnoremap <Leader>d :exe 'Rg ' . expand('<cword>')<CR>
+nnoremap <Leader>c :let @/ = ""<CR>
+nnoremap <Leader>f :Files<CR>
+nnoremap <Leader>h :Helptags<CR>
+nnoremap <Leader>j :Jumps<CR>
+nnoremap <Leader>l :BLines<CR>
+nnoremap <Leader>m :Marks<CR>
+nnoremap <Leader>r :Rg<CR>
+nnoremap <Leader>t :Tags<CR>
+nnoremap <Leader>u :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
+nnoremap <Leader>v :tabe ~/.vim/after/ftplugin/<C-r>=&filetype<CR>.vim<CR>
+
+nnoremap <LocalLeader>f gg=G
 
 xmap - <Plug>(EasyAlign)
 nmap - <Plug>(EasyAlign)
@@ -96,6 +98,7 @@ set number
 set relativenumber
 set ruler
 set scrolloff=99
+set shell=/bin/zsh\ -l
 set showbreak=¶\ 
 set smartcase
 set smoothscroll
