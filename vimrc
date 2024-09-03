@@ -4,7 +4,8 @@ else
 	set bg=dark
 endif
 
-colorscheme wildcharm
+packadd everforest
+colorscheme everforest
 filetype indent plugin on
 syntax enable
 
@@ -105,6 +106,7 @@ set shiftwidth=0
 set sidescrolloff=5
 set noswapfile
 set tabstop=2
+set termguicolors
 set textwidth=80
 set timeoutlen=200
 set ttimeoutlen=100
