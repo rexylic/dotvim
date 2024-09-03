@@ -4,8 +4,7 @@ else
 	set bg=dark
 endif
 
-packadd everforest
-colorscheme everforest
+colorscheme wildcharm
 filetype indent plugin on
 syntax enable
 
