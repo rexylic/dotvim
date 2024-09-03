@@ -22,9 +22,6 @@
 [submodule "pack/integrate/opt/vimtex"]
 	path = pack/integrate/opt/vimtex
 	url = https://github.com/lervag/vimtex
-[submodule "pack/integrate/start/vim-fugitive"]
-	path = pack/integrate/start/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive
 [submodule "pack/snippets/start/vim-addon-mw-utils"]
 	path = pack/snippets/start/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils
@@ -40,9 +37,6 @@
 [submodule "pack/visual/start/context.vim"]
 	path = pack/visual/start/context.vim
 	url = https://github.com/wellle/context.vim
-[submodule "pack/visual/start/goyo.vim"]
-	path = pack/visual/start/goyo.vim
-	url = https://github.com/junegunn/goyo.vim
 [submodule "pack/editing/start/vim-easy-align"]
 	path = pack/editing/start/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align
