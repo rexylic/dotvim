@@ -43,3 +43,6 @@
 [submodule "pack/sessions/start/restore_view.vim"]
 	path = pack/sessions/start/restore_view.vim
 	url = https://github.com/vim-scripts/restore_view.vim.git
+[submodule "pack/visual/start/goyo.vim"]
+	path = pack/visual/start/goyo.vim
+	url = https://github.com/junegunn/goyo.vim.git

@@ -9,10 +9,8 @@ filetype indent plugin on
 syntax enable
 
 let g:context_highlight_tag = '<hide>'
-
 let g:mapleader = "\ "
-let g:maplocalleader = "\\"
-
+let g:maplocalleader = "`"
 let g:fzf_colors =
 \ { 
 \		'fg':      ['fg', 'Normal'],
@@ -29,32 +27,24 @@ let g:fzf_colors =
 \ 	'spinner': ['fg', 'Label'],
 \ 	'header':  ['fg', 'Comment']
 \ }
-
 let g:fzf_vim = { 'preview_window' : [] }
-
-let g:goyo_width = 82
-
-let g:snipMate =
-\	{
-\		'snippet_version' : 1,
-\		'description_in_completion': 1
-\	}
-
+let g:snipMate = { 'snippet_version' : 1 }
 let no_plugin_maps = 1
 
-noremap ` <C-w>
-noremap ~ <C-w>T
-noremap + :tabe<CR>
-noremap _ :tabc<CR>
-noremap [ :tabp<CR>
-noremap ] :tabn<CR>
-noremap Q @@
-noremap U :redo<CR>
+noremap \  <C-w>
+noremap \| <C-w>T
+noremap +  :tabe<CR>
+noremap _  :tabc<CR>
+noremap [  :tabp<CR>
+noremap ]  :tabn<CR>
+noremap Q  @@
+noremap U  :redo<CR>
 
 nnoremap <Up>    :cp<CR>
 nnoremap <Down>  :cn<CR>
 nnoremap <Left>  :bp<CR>
 nnoremap <Right> :bn<CR>
+nnoremap ~       ~h
 
 nnoremap ,c :let @/ = ""<CR>
 nnoremap ,f :tabe ~/.vim/after/ftplugin/<C-r>=&filetype<CR>.vim<CR>

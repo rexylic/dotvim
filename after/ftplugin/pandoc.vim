@@ -1,3 +1,4 @@
+let g:pandoc#syntax#conceal#use = 0
 pa vim-pandoc-syntax
 
 setl syntax=pandoc
