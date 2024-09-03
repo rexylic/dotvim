@@ -42,8 +42,6 @@ let g:snipMate =
 
 let no_plugin_maps = 1
 
-noremap , ;
-noremap ; yyp
 noremap ` <C-w>
 noremap ~ <C-w>T
 noremap + :tabe<CR>
@@ -58,25 +56,25 @@ nnoremap <Down>  :cn<CR>
 nnoremap <Left>  :bp<CR>
 nnoremap <Right> :bn<CR>
 
-nnoremap <Leader>G :Goyo<CR>
-nnoremap <Leader>H :hi<CR>
-nnoremap <Leader>I :tab h index<CR>
-nnoremap <Leader>M :tab h user-manual<CR>
-nnoremap <Leader>V :tabe ~/.vim/vimrc<CR>
-nnoremap <Leader>W :setl wrap!<CR>
+nnoremap ,c :let @/ = ""<CR>
+nnoremap ,f :tabe ~/.vim/after/ftplugin/<C-r>=&filetype<CR>.vim<CR>
+nnoremap ,i :tab h index<CR>
+nnoremap ,m :tab h user-manual<CR>
+nnoremap ,p :tab h pattern<CR>
+nnoremap ,s :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
+nnoremap ,v :tabe ~/.vim/vimrc<CR>
 
 nnoremap <Leader>b :Buffers<CR>
+nnoremap <Leader>c :Commands<CR>
 nnoremap <Leader>d :exe 'Rg ' . expand('<cword>')<CR>
-nnoremap <Leader>c :let @/ = ""<CR>
 nnoremap <Leader>f :Files<CR>
+nnoremap <Leader>g :Goyo<CR>
 nnoremap <Leader>h :Helptags<CR>
 nnoremap <Leader>j :Jumps<CR>
 nnoremap <Leader>l :BLines<CR>
 nnoremap <Leader>m :Marks<CR>
 nnoremap <Leader>r :Rg<CR>
 nnoremap <Leader>t :Tags<CR>
-nnoremap <Leader>u :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
-nnoremap <Leader>v :tabe ~/.vim/after/ftplugin/<C-r>=&filetype<CR>.vim<CR>
 
 nnoremap <LocalLeader>f gg=G
 
