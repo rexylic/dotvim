@@ -28,6 +28,7 @@ let g:fzf_colors =
 \ 	'header':  ['fg', 'Comment']
 \ }
 let g:fzf_vim = { 'preview_window' : [] }
+let g:goyo_width = 82
 let g:snipMate = { 'snippet_version' : 1 }
 let no_plugin_maps = 1
 
@@ -82,9 +83,6 @@ set foldcolumn=4
 set incsearch
 set iskeyword-=_,-
 set lazyredraw
-set number
-set relativenumber
-set ruler
 set scrolloff=99
 set shell=/bin/zsh\ -l
 set showbreak=¶\ 
