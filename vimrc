@@ -31,24 +31,29 @@ let g:fzf_vim = { 'preview_window' : [] }
 let g:snipMate = { 'snippet_version' : 1 }
 let no_plugin_maps = 1
 
-noremap \  <C-w>
+noremap \ :tabe 
 noremap \| <C-w>T
-noremap +  :tabe<CR>
-noremap _  :tabc<CR>
-noremap [  :tabp<CR>
-noremap ]  :tabn<CR>
-noremap Q  @@
-noremap U  :redo<CR>
+noremap + :tabe<CR>
+noremap _ :tabc<CR>
+noremap [ :tabp<CR>
+noremap ] :tabn<CR>
+noremap Q @@
+noremap U :redo<CR>
 
-nnoremap <Up>    :cp<CR>
-nnoremap <Down>  :cn<CR>
-nnoremap <Left>  :bp<CR>
-nnoremap <Right> :bn<CR>
 nnoremap ~       ~h
+nnoremap <Up>    <C-w>k<CR>
+nnoremap <Down>  <C-w>j<CR>
+nnoremap <Left>  <C-w>h<CR>
+nnoremap <Right> <C-w>l<CR>
 
+nnoremap ,, :Scratch<CR>
 nnoremap ,c :let @/ = ""<CR>
 nnoremap ,f :tabe ~/.vim/after/ftplugin/<C-r>=&filetype<CR>.vim<CR>
+nnoremap ,h :bp<CR>
 nnoremap ,i :tab h index<CR>
+nnoremap ,j :cn<CR>
+nnoremap ,k :cp<CR>
+nnoremap ,l :bn<CR>
 nnoremap ,m :tab h user-manual<CR>
 nnoremap ,p :tab h pattern<CR>
 nnoremap ,s :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
