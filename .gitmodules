@@ -43,3 +43,6 @@
 [submodule "pack/visual/start/goyo.vim"]
 	path = pack/visual/start/goyo.vim
 	url = https://github.com/junegunn/goyo.vim.git
+[submodule "pack/editing/start/scratch.vim"]
+	path = pack/editing/start/scratch.vim
+	url = https://github.com/vim-scripts/scratch.vim
