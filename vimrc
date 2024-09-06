@@ -83,15 +83,16 @@ set nocompatible
 set cursorline
 set noesckeys
 set noexpandtab
+set foldmethod=marker
 set incsearch
 set iskeyword-=_,-
 set lazyredraw
+set ruler
 set scrolloff=99
 set shell=/bin/zsh\ -l
 set showbreak=¶\ 
 set smartcase
 set smoothscroll
-set shiftround
 set shiftwidth=0
 set sidescrolloff=5
 set noswapfile
