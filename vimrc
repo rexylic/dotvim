@@ -82,7 +82,7 @@ set colorcolumn=81,101,121,141
 set nocompatible
 set cursorline
 set noesckeys
-set noexpandtab
+set expandtab
 set foldmethod=marker
 set incsearch
 set iskeyword-=_,-
@@ -94,7 +94,6 @@ set showbreak=¶\
 set smartcase
 set smoothscroll
 set shiftwidth=0
-set sidescrolloff=5
 set noswapfile
 set tabstop=2
 set termguicolors
@@ -103,3 +102,4 @@ set timeoutlen=200
 set ttimeoutlen=100
 set virtualedit=all
 set wildmenu
+set wrap
