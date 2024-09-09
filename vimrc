@@ -100,6 +100,5 @@ set termguicolors
 set textwidth=80
 set timeoutlen=200
 set ttimeoutlen=100
-set virtualedit=all
 set wildmenu
 set wrap
