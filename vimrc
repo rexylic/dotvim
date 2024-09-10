@@ -4,13 +4,14 @@ else
 	set bg=dark
 endif
 
-colorscheme wildcharm
+packadd everforest
+colorscheme everforest
 filetype indent plugin on
 syntax enable"}}}
 
 let g:context_highlight_tag = '<hide>'"{{{
 let g:mapleader = "\ "
-let g:maplocalleader = "`"
+let g:maplocalleader = "\\"
 let g:fzf_colors =
 \ { 
 \		'fg':      ['fg', 'Normal'],
@@ -29,11 +30,11 @@ let g:fzf_colors =
 \ }
 let g:fzf_vim = { 'preview_window' : [] }
 let g:snipMate = { 'snippet_version' : 1 }
+let g:vimtex_mappings_prefix = '<localleader>'
+let g:vimtex_quickfix_ignore_filters = ['Warning']
 let no_plugin_maps = 1"}}}
 
-noremap \ :tabe "{{{
-noremap \| <C-w>T
-noremap + :tabe<CR>
+noremap + :tabe<CR>"{{{
 noremap _ :tabc<CR>
 noremap [ :tabp<CR>
 noremap ] :tabn<CR>
