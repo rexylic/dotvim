@@ -1,11 +1,11 @@
 snippet l "Mini Deps Later"
-	later(function()
-		$1
+	mdl(function()
+		require('$1').setup {}
 	end)
 
 snippet n "Mini Deps Now"
-	now(function()
-		$1
+	mdn(function()
+		require('$1').setup {}
 	end)
 	
 snippet r "Require"
