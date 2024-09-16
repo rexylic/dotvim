@@ -1,15 +1,14 @@
-if $BG[0] == 'l'"{{{
+if $BG[0] == 'l'
 	set bg=light
 else
 	set bg=dark
 endif
 
-packadd everforest
-colorscheme everforest
+colorscheme wildcharm
 filetype indent plugin on
-syntax enable"}}}
+syntax enable
 
-let g:context_highlight_tag = '<hide>'"{{{
+let g:context_highlight_tag = '<hide>'
 let g:mapleader = "\ "
 let g:maplocalleader = "\\"
 let g:fzf_colors =
@@ -32,16 +31,16 @@ let g:fzf_vim = { 'preview_window' : [] }
 let g:snipMate = { 'snippet_version' : 1 }
 let g:vimtex_mappings_prefix = '<localleader>'
 let g:vimtex_quickfix_ignore_filters = ['Warning']
-let no_plugin_maps = 1"}}}
+let no_plugin_maps = 1
 
-noremap + :tabe<CR>"{{{
+noremap + :tabe<CR>
 noremap _ :tabc<CR>
 noremap [ :tabp<CR>
 noremap ] :tabn<CR>
 noremap Q @@
-noremap U :redo<CR>"}}}
+noremap U :redo<CR>
 
-nnoremap ~       ~h"{{{
+nnoremap ~       ~h
 nnoremap <Up>    <C-w>k<CR>
 nnoremap <Down>  <C-w>j<CR>
 nnoremap <Left>  <C-w>h<CR>
@@ -72,12 +71,12 @@ nnoremap <Leader>m :Marks<CR>
 nnoremap <Leader>r :Rg<CR>
 nnoremap <Leader>t :Tags<CR>
 
-nnoremap <LocalLeader>f gg=G"}}}
+nnoremap <LocalLeader>f gg=G
 
-xmap - <Plug>(EasyAlign)"{{{
-nmap - <Plug>(EasyAlign)"}}}
+xmap - <Plug>(EasyAlign)
+nmap - <Plug>(EasyAlign)
 
-set autoindent"{{{
+set autoindent
 set breakindent
 set colorcolumn=81,101,121,141
 set nocompatible
@@ -97,9 +96,8 @@ set smoothscroll
 set shiftwidth=0
 set noswapfile
 set tabstop=2
-set termguicolors
 set textwidth=80
 set timeoutlen=200
 set ttimeoutlen=100
 set wildmenu
-set wrap"}}}
+set wrap
