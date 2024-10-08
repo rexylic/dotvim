@@ -30,7 +30,9 @@ let g:fzf_colors =
 let g:fzf_vim = { 'preview_window' : [] }
 let g:snipMate = { 'snippet_version' : 1 }
 let g:vimtex_mappings_prefix = '<localleader>'
-let g:vimtex_quickfix_ignore_filters = ['Warning']
+let g:vimtex_indent_lists = []
+let g:latex_indent_enabled = 0
+let g:vimtex_quickfix_ignore_filters = ['[Ww]arning', 'hbox']
 let no_plugin_maps = 1
 
 noremap + :tabe<CR>
@@ -40,6 +42,7 @@ noremap ] :tabn<CR>
 noremap Q @@
 noremap U :redo<CR>
 
+nnoremap `       gqip
 nnoremap ~       ~h
 nnoremap <Up>    <C-w>k<CR>
 nnoremap <Down>  <C-w>j<CR>
@@ -85,6 +88,7 @@ set noesckeys
 set expandtab
 set foldmethod=marker
 set incsearch
+set indentexpr=
 set iskeyword-=_,-
 set lazyredraw
 set ruler
@@ -95,6 +99,8 @@ set smartcase
 set smoothscroll
 set shiftwidth=0
 set noswapfile
+set number
+set relativenumber
 set tabstop=2
 set textwidth=80
 set timeoutlen=200
