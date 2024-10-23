@@ -42,8 +42,6 @@ noremap ] :tabn<CR>
 noremap Q @@
 noremap U :redo<CR>
 
-nnoremap `       gqip
-nnoremap ~       ~h
 nnoremap <Up>    <C-w>k<CR>
 nnoremap <Down>  <C-w>j<CR>
 nnoremap <Left>  <C-w>h<CR>
@@ -62,6 +60,7 @@ nnoremap ,p :tab h pattern<CR>
 nnoremap ,s :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
 nnoremap ,v :tabe ~/.vim/vimrc<CR>
 
+nnoremap <Leader>, gqip
 nnoremap <Leader>b :Buffers<CR>
 nnoremap <Leader>c :Commands<CR>
 nnoremap <Leader>d :exe 'Rg ' . expand('<cword>')<CR>
@@ -90,7 +89,6 @@ set foldmethod=marker
 set incsearch
 set indentexpr=
 set iskeyword-=_,-
-set lazyredraw
 set ruler
 set scrolloff=99
 set shell=/bin/zsh\ -l
