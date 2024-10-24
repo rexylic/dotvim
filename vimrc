@@ -35,12 +35,13 @@ let g:latex_indent_enabled = 0
 let g:vimtex_quickfix_ignore_filters = ['[Ww]arning', 'hbox']
 let no_plugin_maps = 1
 
-noremap + :tabe<CR>
-noremap _ :tabc<CR>
-noremap [ :tabp<CR>
-noremap ] :tabn<CR>
-noremap Q @@
-noremap U :redo<CR>
+nnoremap ` <C-w>T
+nnoremap + :tabe<CR>
+nnoremap _ :tabc<CR>
+nnoremap [ :tabp<CR>
+nnoremap ] :tabn<CR>
+nnoremap Q @@
+nnoremap U :redo<CR>
 
 nnoremap <Up>    <C-w>k<CR>
 nnoremap <Down>  <C-w>j<CR>
@@ -84,11 +85,8 @@ set colorcolumn=81,101,121,141
 set nocompatible
 set cursorline
 set noesckeys
-set expandtab
 set foldmethod=marker
 set incsearch
-set indentexpr=
-set iskeyword-=_,-
 set ruler
 set scrolloff=99
 set shell=/bin/zsh\ -l
@@ -99,7 +97,6 @@ set shiftwidth=0
 set noswapfile
 set number
 set relativenumber
-set tabstop=2
 set textwidth=80
 set timeoutlen=200
 set ttimeoutlen=100
