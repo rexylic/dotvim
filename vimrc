@@ -11,22 +11,20 @@ syntax enable
 let g:context_highlight_tag = '<hide>'
 let g:mapleader = "\ "
 let g:maplocalleader = "\\"
-let g:fzf_colors =
-\ { 
-\		'fg':      ['fg', 'Normal'],
-\ 	'bg':      ['bg', 'Normal'],
-\ 	'hl':      ['fg', 'Comment'],
-\ 	'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
-\ 	'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
-\ 	'hl+':     ['fg', 'Statement'],
-\ 	'info':    ['fg', 'PreProc'],
-\ 	'border':  ['bg', 'Ignore'],
-\ 	'prompt':  ['fg', 'Conditional'],
-\ 	'pointer': ['fg', 'Exception'],
-\ 	'marker':  ['fg', 'Keyword'],
-\ 	'spinner': ['fg', 'Label'],
-\ 	'header':  ['fg', 'Comment']
-\ }
+let g:fzf_colors = { 
+\ 'fg':      ['fg', 'Normal'],
+\ 'bg':      ['bg', 'Normal'],
+\ 'hl':      ['fg', 'Comment'],
+\ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+\ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+\ 'hl+':     ['fg', 'Statement'],
+\ 'info':    ['fg', 'PreProc'],
+\ 'border':  ['bg', 'Ignore'],
+\ 'prompt':  ['fg', 'Conditional'],
+\ 'pointer': ['fg', 'Exception'],
+\ 'marker':  ['fg', 'Keyword'],
+\ 'spinner': ['fg', 'Label'],
+\ 'header':  ['fg', 'Comment'] }
 let g:fzf_vim = { 'preview_window' : [] }
 let g:snipMate = { 'snippet_version' : 1 }
 let g:vimtex_mappings_prefix = '<localleader>'
@@ -36,6 +34,7 @@ let g:vimtex_quickfix_ignore_filters = ['[Ww]arning', 'hbox']
 let no_plugin_maps = 1
 
 nnoremap ` <C-w>T
+nnoremap = gqip
 nnoremap + :tabe<CR>
 nnoremap _ :tabc<CR>
 nnoremap [ :tabp<CR>
@@ -61,7 +60,6 @@ nnoremap ,p :tab h pattern<CR>
 nnoremap ,s :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
 nnoremap ,v :tabe ~/.vim/vimrc<CR>
 
-nnoremap <Leader>, gqip
 nnoremap <Leader>b :Buffers<CR>
 nnoremap <Leader>c :Commands<CR>
 nnoremap <Leader>d :exe 'Rg ' . expand('<cword>')<CR>
@@ -97,6 +95,7 @@ set shiftwidth=0
 set noswapfile
 set number
 set relativenumber
+set tabstop=4
 set textwidth=80
 set timeoutlen=200
 set ttimeoutlen=100
