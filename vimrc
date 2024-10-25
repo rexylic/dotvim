@@ -25,8 +25,8 @@ let g:fzf_colors = {
 \ 'marker':  ['fg', 'Keyword'],
 \ 'spinner': ['fg', 'Label'],
 \ 'header':  ['fg', 'Comment'] }
-let g:fzf_vim = { 'preview_window' : [] }
-let g:snipMate = { 'snippet_version' : 1 }
+let g:fzf_vim = { 'preview_window': [] }
+let g:snipMate = { 'snippet_version': 1 }
 let g:vimtex_mappings_prefix = '<localleader>'
 let g:vimtex_indent_lists = []
 let g:latex_indent_enabled = 0
@@ -34,27 +34,26 @@ let g:vimtex_quickfix_ignore_filters = ['[Ww]arning', 'hbox']
 let no_plugin_maps = 1
 
 nnoremap ` <C-w>T
+xmap     - <Plug>(EasyAlign)
+nmap     - <Plug>(EasyAlign)
+nnoremap _ :tabc<CR>
 nnoremap = gqip
 nnoremap + :tabe<CR>
-nnoremap _ :tabc<CR>
 nnoremap [ :tabp<CR>
 nnoremap ] :tabn<CR>
+
 nnoremap Q @@
 nnoremap U :redo<CR>
 
-nnoremap <Up>    <C-w>k<CR>
-nnoremap <Down>  <C-w>j<CR>
-nnoremap <Left>  <C-w>h<CR>
-nnoremap <Right> <C-w>l<CR>
+nnoremap <Up>    :cp<CR>
+nnoremap <Down>  :cn<CR>
+nnoremap <Left>  :bp<CR>
+nnoremap <Right> :bn<CR>
 
 nnoremap ,, :Scratch<CR>
 nnoremap ,c :let @/ = ""<CR>
 nnoremap ,f :tabe ~/.vim/after/ftplugin/<C-r>=&filetype<CR>.vim<CR>
-nnoremap ,h :bp<CR>
 nnoremap ,i :tab h index<CR>
-nnoremap ,j :cn<CR>
-nnoremap ,k :cp<CR>
-nnoremap ,l :bn<CR>
 nnoremap ,m :tab h user-manual<CR>
 nnoremap ,p :tab h pattern<CR>
 nnoremap ,s :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
@@ -73,9 +72,6 @@ nnoremap <Leader>r :Rg<CR>
 nnoremap <Leader>t :Tags<CR>
 
 nnoremap <LocalLeader>f gg=G
-
-xmap - <Plug>(EasyAlign)
-nmap - <Plug>(EasyAlign)
 
 set autoindent
 set breakindent
