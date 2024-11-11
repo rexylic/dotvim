@@ -6,7 +6,6 @@ endif
 
 colorscheme wildcharm
 filetype indent plugin on
-syntax enable
 
 let g:context_highlight_tag = '<hide>'
 let g:mapleader = "\ "
@@ -41,14 +40,8 @@ nnoremap = gqip
 nnoremap + :tabe<CR>
 nnoremap [ :tabp<CR>
 nnoremap ] :tabn<CR>
-
 nnoremap Q @@
 nnoremap U :redo<CR>
-
-nnoremap <Up>    :cp<CR>
-nnoremap <Down>  :cn<CR>
-nnoremap <Left>  :bp<CR>
-nnoremap <Right> :bn<CR>
 
 nnoremap ,, :Scratch<CR>
 nnoremap ,c :let @/ = ""<CR>
@@ -78,7 +71,6 @@ set breakindent
 set colorcolumn=81,101,121,141
 set nocompatible
 set cursorline
-set noesckeys
 set foldmethod=marker
 set incsearch
 set ruler
