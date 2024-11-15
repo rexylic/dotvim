@@ -46,3 +46,6 @@
 [submodule "pack/editing/start/targets.vim"]
 	path = pack/editing/start/targets.vim
 	url = https://github.com/wellle/targets.vim
+[submodule "pack/themes/opt/nord"]
+	path = pack/themes/opt/nord
+	url = https://github.com/nordtheme/vim.git

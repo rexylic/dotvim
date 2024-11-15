@@ -1,14 +1,7 @@
-if $BG[0] == 'l'
-	set bg=light
-else
-	set bg=dark
-endif
-
-pa everforest
-colorscheme everforest
-set termguicolors
 filetype indent plugin on
-
+syntax enable
+packadd nord
+colorscheme nord
 let g:context_highlight_tag = '<hide>'
 let g:mapleader = "\ "
 let g:maplocalleader = "\\"
