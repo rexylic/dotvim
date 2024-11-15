@@ -4,7 +4,9 @@ else
 	set bg=dark
 endif
 
-colorscheme wildcharm
+pa everforest
+colorscheme everforest
+set termguicolors
 filetype indent plugin on
 
 let g:context_highlight_tag = '<hide>'
