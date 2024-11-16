@@ -56,6 +56,7 @@ nnoremap <Leader>h :Helptags<CR>
 nnoremap <Leader>j :Jumps<CR>
 nnoremap <Leader>l :BLines<CR>
 nnoremap <Leader>m :Marks<CR>
+nnoremap <Leader>n :NERDTreeToggle<CR>
 nnoremap <Leader>r :Rg<CR>
 nnoremap <Leader>t :Tags<CR>
 

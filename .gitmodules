@@ -49,3 +49,6 @@
 [submodule "pack/themes/opt/nord"]
 	path = pack/themes/opt/nord
 	url = https://github.com/nordtheme/vim.git
+[submodule "pack/sessions/start/nerdtree"]
+	path = pack/sessions/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
