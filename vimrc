@@ -2,6 +2,7 @@ filetype indent plugin on
 syntax enable
 packadd nord
 colorscheme nord
+
 let g:context_highlight_tag = '<hide>'
 let g:mapleader = "\ "
 let g:maplocalleader = "\\"
@@ -59,8 +60,6 @@ nnoremap <Leader>m :Marks<CR>
 nnoremap <Leader>n :NERDTreeToggle<CR>
 nnoremap <Leader>r :Rg<CR>
 nnoremap <Leader>t :Tags<CR>
-
-nnoremap <LocalLeader>f gg=G
 
 set autoindent
 set breakindent
