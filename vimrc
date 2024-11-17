@@ -39,6 +39,11 @@ nnoremap ] :tabn<CR>
 nnoremap Q @@
 nnoremap U :redo<CR>
 
+nnoremap <Left>  <C-w>h
+nnoremap <Down>  <C-w>j
+nnoremap <Up>    <C-w>k
+nnoremap <Right> <C-w>l
+
 nnoremap ,, :Scratch<CR>
 nnoremap ,c :let @/ = ""<CR>
 nnoremap ,f :tabe ~/.vim/after/ftplugin/<C-r>=&filetype<CR>.vim<CR>
@@ -62,6 +67,7 @@ nnoremap <Leader>r :Rg<CR>
 nnoremap <Leader>t :Tags<CR>
 
 set autoindent
+set background=dark
 set breakindent
 set colorcolumn=81,101,121,141
 set nocompatible

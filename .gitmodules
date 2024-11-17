@@ -55,3 +55,6 @@
 [submodule "pack/sessions/start/nerdtree-v"]
 	path = pack/sessions/start/nerdtree-v
 	url = https://github.com/PhilRunninger/nerdtree-visual-selection
+[submodule "pack/themes/opt/gruvbox"]
+	path = pack/themes/opt/gruvbox
+	url = https://github.com/morhetz/gruvbox
