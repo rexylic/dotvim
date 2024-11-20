@@ -1,7 +1,5 @@
 filetype indent plugin on
 syntax enable
-packadd nord
-colorscheme nord
 
 let g:context_highlight_tag = '<hide>'
 let g:mapleader = "\ "
@@ -71,7 +69,6 @@ set background=dark
 set breakindent
 set colorcolumn=81,101,121,141
 set nocompatible
-set cursorline
 set foldmethod=marker
 set incsearch
 set ruler
