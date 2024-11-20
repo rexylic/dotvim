@@ -1,5 +1,4 @@
 filetype indent plugin on
-syntax enable
 
 let g:context_highlight_tag = '<hide>'
 let g:mapleader = "\ "
