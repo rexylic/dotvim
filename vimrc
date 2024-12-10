@@ -1,9 +1,9 @@
-syntax enable
 filetype plugin indent on
+syntax enable
 
-let g:context_highlight_tag = '<hide>'
 let g:mapleader = "\ "
 let g:maplocalleader = "\\"
+let g:context_highlight_tag = '<hide>'
 let g:fzf_colors = { 
 \ 'fg':      ['fg', 'Normal'],
 \ 'bg':      ['bg', 'Normal'],
@@ -22,20 +22,19 @@ let g:fzf_vim = { 'preview_window': [] }
 let g:snipMate = { 'snippet_version': 1 }
 let g:vimtex_mappings_prefix = '<localleader>'
 let g:vimtex_indent_lists = []
-let g:latex_indent_enabled = 0
 let g:vimtex_quickfix_ignore_filters = ['[Ww]arning', 'hbox']
-let no_plugin_maps = 1
 
 nnoremap ` <C-w>T
 xmap     - <Plug>(EasyAlign)
 nmap     - <Plug>(EasyAlign)
-nnoremap _ :tabc<CR>
 nnoremap = gqip
-nnoremap + :tabe<CR>
-nnoremap [ :tabp<CR>
-nnoremap ] :tabn<CR>
+nnoremap _ :tabp<CR>
+nnoremap + :tabn<CR>
 nnoremap Q @@
 nnoremap U :redo<CR>
+
+nnoremap [c :set bg=light<CR>
+nnoremap ]c :set bg=dark<CR>
 
 nnoremap <Left>  <C-w>h
 nnoremap <Down>  <C-w>j
@@ -51,13 +50,15 @@ nnoremap <Leader>h :Helptags<CR>
 nnoremap <Leader>j :Jumps<CR>
 nnoremap <Leader>l :BLines<CR>
 nnoremap <Leader>m :Marks<CR>
-nnoremap <Leader>n :NERDTreeToggle<CR>
 nnoremap <Leader>r :Rg<CR>
 nnoremap <Leader>s :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
+nnoremap <Leader>t :NERDTreeToggle<CR>
+nnoremap <Leader>v :tabe ~/.vim/vimrc<CR>
 
 set autoindent
 set breakindent
 set colorcolumn=81,101,121,141
+set cursorline
 set nocompatible
 set foldmethod=marker
 set incsearch
@@ -72,9 +73,11 @@ set noswapfile
 set number
 set relativenumber
 set tabstop=4
-set termguicolors
 set textwidth=80
 set timeoutlen=200
 set ttimeoutlen=100
 set wildmenu
 set wrap
+
+pa papercolor-theme
+colo PaperColor

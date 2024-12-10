@@ -58,3 +58,6 @@
 [submodule "pack/themes/opt/gruvbox"]
 	path = pack/themes/opt/gruvbox
 	url = https://github.com/morhetz/gruvbox
+[submodule "pack/themes/start/vim-lumen"]
+	path = pack/themes/start/vim-lumen
+	url = https://github.com/vimpostor/vim-lumen
