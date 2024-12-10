@@ -1,4 +1,5 @@
-filetype indent plugin on
+syntax enable
+filetype plugin indent on
 
 let g:context_highlight_tag = '<hide>'
 let g:mapleader = "\ "
@@ -41,15 +42,6 @@ nnoremap <Down>  <C-w>j
 nnoremap <Up>    <C-w>k
 nnoremap <Right> <C-w>l
 
-nnoremap ,, :Scratch<CR>
-nnoremap ,c :let @/ = ""<CR>
-nnoremap ,f :tabe ~/.vim/after/ftplugin/<C-r>=&filetype<CR>.vim<CR>
-nnoremap ,i :tab h index<CR>
-nnoremap ,m :tab h user-manual<CR>
-nnoremap ,p :tab h pattern<CR>
-nnoremap ,s :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
-nnoremap ,v :tabe ~/.vim/vimrc<CR>
-
 nnoremap <Leader>b :Buffers<CR>
 nnoremap <Leader>c :Commands<CR>
 nnoremap <Leader>d :exe 'Rg ' . expand('<cword>')<CR>
@@ -61,10 +53,9 @@ nnoremap <Leader>l :BLines<CR>
 nnoremap <Leader>m :Marks<CR>
 nnoremap <Leader>n :NERDTreeToggle<CR>
 nnoremap <Leader>r :Rg<CR>
-nnoremap <Leader>t :Tags<CR>
+nnoremap <Leader>s :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
 
 set autoindent
-set background=dark
 set breakindent
 set colorcolumn=81,101,121,141
 set nocompatible
@@ -81,6 +72,7 @@ set noswapfile
 set number
 set relativenumber
 set tabstop=4
+set termguicolors
 set textwidth=80
 set timeoutlen=200
 set ttimeoutlen=100
