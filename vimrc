@@ -1,5 +1,4 @@
 filetype plugin indent on
-syntax enable
 
 let g:mapleader = "\ "
 let g:maplocalleader = "\\"
@@ -25,16 +24,20 @@ let g:vimtex_indent_lists = []
 let g:vimtex_quickfix_ignore_filters = ['[Ww]arning', 'hbox']
 
 nnoremap ` <C-w>T
-xmap     - <Plug>(EasyAlign)
-nmap     - <Plug>(EasyAlign)
+nnoremap - :bn<CR>
+nnoremap _ :bp<CR>
 nnoremap = gqip
-nnoremap _ :tabp<CR>
-nnoremap + :tabn<CR>
+nnoremap + :tabnew<CR>
 nnoremap Q @@
 nnoremap U :redo<CR>
 
+vmap <Enter> <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)
+
 nnoremap [c :set bg=light<CR>
 nnoremap ]c :set bg=dark<CR>
+nnoremap [t :tabp<CR>
+nnoremap ]t :tabn<CR>
 
 nnoremap <Left>  <C-w>h
 nnoremap <Down>  <C-w>j
@@ -50,6 +53,7 @@ nnoremap <Leader>h :Helptags<CR>
 nnoremap <Leader>j :Jumps<CR>
 nnoremap <Leader>l :BLines<CR>
 nnoremap <Leader>m :Marks<CR>
+nnoremap <Leader>p :tabe ~/.vim/ftplugin/<C-r>=&filetype<CR>.vim<CR>
 nnoremap <Leader>r :Rg<CR>
 nnoremap <Leader>s :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
 nnoremap <Leader>t :NERDTreeToggle<CR>
