@@ -1,7 +1,8 @@
 filetype plugin indent on
 
 let g:mapleader = "\ "
-let g:maplocalleader = "\\"
+let g:maplocalleader = ","
+let g:no_plugin_maps = 1
 let g:context_highlight_tag = '<hide>'
 let g:fzf_colors = { 
 \ 'fg':      ['fg', 'Normal'],
@@ -77,6 +78,7 @@ set noswapfile
 set number
 set relativenumber
 set tabstop=4
+set termguicolors
 set textwidth=80
 set timeoutlen=200
 set ttimeoutlen=100
