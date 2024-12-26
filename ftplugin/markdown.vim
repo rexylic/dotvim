@@ -9,6 +9,7 @@ setl formatoptions+=r
 
 nn <LocalLeader>b J0f-2x0
 nn <LocalLeader>c :execute '!pch ' . expand('%:r') . '.md ' . expand('%:r') . '.html'<CR>
+nn <LocalLeader>C :execute '!pch-crypt'<CR>
 nn <LocalLeader>f <Plug>Ysurroundiw]a^
 nn <LocalLeader>i <Plug>Ysurroundiw_
 nn <LocalLeader>q vip:norm I> <CR>
