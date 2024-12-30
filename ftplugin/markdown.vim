@@ -15,5 +15,7 @@ nn <LocalLeader>i <Plug>Ysurroundiw_
 nn <LocalLeader>q vip:norm I> <CR>
 nn <LocalLeader>v vip:norm I\| <CR>
 
+nn <LocalLeader>. :%s/\n//g<CR>
+
 xn <LocalLeader>i <Plug>VSurround_
 xn <LocalLeader>q :norm I> <CR>

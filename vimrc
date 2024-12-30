@@ -24,11 +24,13 @@ let g:vimtex_mappings_prefix = '<localleader>'
 let g:vimtex_indent_lists = []
 let g:vimtex_quickfix_ignore_filters = ['[Ww]arning', 'hbox']
 
-nnoremap ` <C-w>T
+nnoremap ` zt
 nnoremap - :bn<CR>
 nnoremap _ :bp<CR>
 nnoremap = gqip
 nnoremap + :tabnew<CR>
+nnoremap j gj
+nnoremap k gk
 nnoremap Q @@
 nnoremap U :redo<CR>
 
@@ -62,24 +64,23 @@ nnoremap <Leader>v :tabe ~/.vim/vimrc<CR>
 
 set autoindent
 set breakindent
-set colorcolumn=81,101,121,141
+" set colorcolumn=81,101,121,141
 set cursorline
 set nocompatible
 set foldmethod=marker
+set iskeyword=a-z,A-Z,48-57
 set incsearch
+set linebreak
 set ruler
-set scrolloff=99
 set shell=/bin/zsh\ -l
-set showbreak=¶\ 
+set showbreak=\ \ 
 set smartcase
 set smoothscroll
 set shiftwidth=0
 set noswapfile
 set number
-set relativenumber
 set tabstop=4
 set termguicolors
-set textwidth=80
 set timeoutlen=200
 set ttimeoutlen=100
 set wildmenu
