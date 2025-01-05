@@ -1,0 +1,24 @@
+[submodule "pack/editing/start/vim-addon-mw-utils"]
+	path = pack/editing/start/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils
+[submodule "pack/editing/start/vim-commentary"]
+	path = pack/editing/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary
+[submodule "pack/editing/start/vim-easy-align"]
+	path = pack/editing/start/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align
+[submodule "pack/editing/start/vim-repeat"]
+	path = pack/editing/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat
+[submodule "pack/editing/start/vim-snipmate"]
+	path = pack/editing/start/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate
+[submodule "pack/editing/start/vim-surround"]
+	path = pack/editing/start/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "pack/integrate/start/vim-pandoc-syntax"]
+	path = pack/integrate/start/vim-pandoc-syntax
+	url = https://github.com/vim-pandoc/vim-pandoc-syntax
+[submodule "pack/integrate/start/vimtex"]
+	path = pack/integrate/start/vimtex
+	url = https://github.com/lervag/vimtex
