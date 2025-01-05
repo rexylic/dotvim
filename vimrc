@@ -48,5 +48,4 @@ set ttimeoutlen=100
 set wildmenu
 set wrap
 
-packadd nord
 colorscheme nord
