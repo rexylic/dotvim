@@ -48,5 +48,5 @@ set ttimeoutlen=100
 set wildmenu
 set wrap
 
-packadd papercolor-theme
-colorscheme PaperColor
+packadd nord
+colorscheme nord
