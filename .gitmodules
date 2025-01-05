@@ -11,10 +11,10 @@
 	path = pack/editing/start/vim-surround
 	url = https://github.com/tpope/vim-surround
 [submodule "pack/fzf/start/fzf"]
-	path = pack/fzf/opt/fzf
+	path = pack/sessions/opt/fzf
 	url = https://github.com/junegunn/fzf
 [submodule "pack/fzf/start/fzf.vim"]
-	path = pack/fzf/opt/fzf.vim
+	path = pack/sessions/opt/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
 [submodule "pack/integrate/opt/vim-pandoc-syntax"]
 	path = pack/integrate/start/vim-pandoc-syntax
@@ -23,10 +23,10 @@
 	path = pack/integrate/start/vimtex
 	url = https://github.com/lervag/vimtex
 [submodule "pack/snippets/start/vim-addon-mw-utils"]
-	path = pack/snippets/start/vim-addon-mw-utils
+	path = pack/editing/start/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils
 [submodule "pack/snippets/start/vim-snipmate"]
-	path = pack/snippets/start/vim-snipmate
+	path = pack/editing/start/vim-snipmate
 	url = https://github.com/garbas/vim-snipmate
 [submodule "pack/themes/start/everforest"]
 	path = pack/themes/opt/everforest
@@ -35,13 +35,13 @@
 	path = pack/themes/opt/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
 [submodule "pack/visual/start/context.vim"]
-	path = pack/visual/opt/context.vim
+	path = pack/sessions/opt/context.vim
 	url = https://github.com/wellle/context.vim
 [submodule "pack/editing/start/vim-easy-align"]
 	path = pack/editing/start/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align
 [submodule "pack/visual/start/goyo.vim"]
-	path = pack/visual/opt/goyo.vim
+	path = pack/sessions/opt/goyo.vim
 	url = https://github.com/junegunn/goyo.vim.git
 [submodule "pack/editing/start/targets.vim"]
 	path = pack/editing/start/targets.vim
