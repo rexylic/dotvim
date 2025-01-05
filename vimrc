@@ -18,11 +18,10 @@ xmap <Enter> <Plug>(EasyAlign)
 nmap ga      <Plug>(EasyAlign)
 
 nnoremap <Leader>c <Plug>CommentaryLine
+xnoremap <Leader>c <Plug>Commentary
 nnoremap <Leader>p :tabe ~/.vim/ftplugin/<C-r>=&filetype<CR>.vim<CR>
 nnoremap <Leader>s :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
 nnoremap <Leader>v :tabe ~/.vim/vimrc<CR>
-
-xnoremap <Leader>c <Plug>Commentary
 
 set autoindent
 set breakindent
