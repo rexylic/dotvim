@@ -11,10 +11,10 @@
 	path = pack/editing/start/vim-surround
 	url = https://github.com/tpope/vim-surround
 [submodule "pack/fzf/start/fzf"]
-	path = pack/fzf/start/fzf
+	path = pack/fzf/opt/fzf
 	url = https://github.com/junegunn/fzf
 [submodule "pack/fzf/start/fzf.vim"]
-	path = pack/fzf/start/fzf.vim
+	path = pack/fzf/opt/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
 [submodule "pack/integrate/opt/vim-pandoc-syntax"]
 	path = pack/integrate/start/vim-pandoc-syntax
@@ -35,13 +35,13 @@
 	path = pack/themes/opt/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
 [submodule "pack/visual/start/context.vim"]
-	path = pack/visual/start/context.vim
+	path = pack/visual/opt/context.vim
 	url = https://github.com/wellle/context.vim
 [submodule "pack/editing/start/vim-easy-align"]
 	path = pack/editing/start/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align
 [submodule "pack/visual/start/goyo.vim"]
-	path = pack/visual/start/goyo.vim
+	path = pack/visual/opt/goyo.vim
 	url = https://github.com/junegunn/goyo.vim.git
 [submodule "pack/editing/start/targets.vim"]
 	path = pack/editing/start/targets.vim
@@ -50,10 +50,10 @@
 	path = pack/themes/opt/nord
 	url = https://github.com/nordtheme/vim.git
 [submodule "pack/sessions/start/nerdtree"]
-	path = pack/sessions/start/nerdtree
+	path = pack/sessions/opt/nerdtree
 	url = https://github.com/preservim/nerdtree.git
 [submodule "pack/sessions/start/nerdtree-v"]
-	path = pack/sessions/start/nerdtree-v
+	path = pack/sessions/opt/nerdtree-v
 	url = https://github.com/PhilRunninger/nerdtree-visual-selection
 [submodule "pack/themes/opt/gruvbox"]
 	path = pack/themes/opt/gruvbox
