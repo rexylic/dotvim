@@ -25,6 +25,7 @@ nnoremap <Leader>s :tabe ~/.vim/snippets/<C-r>=&filetype<CR>.snippets<CR>
 nnoremap <Leader>v :tabe ~/.vim/vimrc<CR>
 
 set autoindent
+set background=dark
 set breakindent
 set colorcolumn=81,101,121,141
 set cursorline
