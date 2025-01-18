@@ -29,7 +29,7 @@ set autoindent
 set background=dark
 set breakindent
 set colorcolumn=81,101,121,141
-" set cursorline
+set cursorline
 set nocompatible
 set foldmethod=marker
 set iskeyword=a-z,A-Z,48-57
