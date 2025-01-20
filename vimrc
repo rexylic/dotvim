@@ -52,4 +52,4 @@ set ttimeoutlen=100
 set wildmenu
 set wrap
 
-colorscheme nord
+colorscheme gruvbox
