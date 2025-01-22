@@ -1,5 +1,4 @@
 filetype plugin indent on
-syntax enable
 
 let g:mapleader = "\ "
 let g:maplocalleader = ","
