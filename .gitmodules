@@ -17,11 +17,11 @@
 	path = pack/editing/start/vim-surround
 	url = https://github.com/tpope/vim-surround
 [submodule "pack/integrate/start/vim-pandoc-syntax"]
-	path = pack/integrate/start/vim-pandoc-syntax
+	path = pack/integrate/opt/vim-pandoc-syntax
 	url = https://github.com/vim-pandoc/vim-pandoc-syntax
 [submodule "pack/integrate/start/vimtex"]
-	path = pack/integrate/start/vimtex
+	path = pack/integrate/opt/vimtex
 	url = https://github.com/lervag/vimtex
 [submodule "pack/theme/start/gruvbox"]
-	path = pack/theme/start/gruvbox
+	path = pack/theme/opt/gruvbox
 	url = https://github.com/morhetz/gruvbox
